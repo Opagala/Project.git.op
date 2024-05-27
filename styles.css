@@ -9,8 +9,8 @@ body{
 }
 .navbar-brand{
     font-weight: bold;
-    display: flex;
-    align-items: center;
+    display: inline;
+    align-items: left;
 }
 .logo{
     max-height: 50px;
