@@ -9,7 +9,10 @@ body{
 }
 .navbar-brand{
     font-weight: bold;
-    display: inline;
+    display: flex;
+    align-items: center;
+}
+.product{
     align-items: left;
 }
 .logo{
