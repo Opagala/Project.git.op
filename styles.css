@@ -46,7 +46,7 @@ div h1 h2 h3 h4{
 footer{    
         flex-direction: column;
         text-align: center;
-        color: beige;
+        color: black;
         container: inherit;
         position: relative;
         top: 10%;
@@ -55,8 +55,8 @@ footer{
         padding: 0;
         width: 100%;
         overflow: auto;
-        background-color: #1D1F20;
-        font-size: 12px;
+        background-color: #BC8F8F;
+        font-size: 20px;
     
 }
 .dropdown{
