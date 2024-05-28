@@ -29,7 +29,10 @@ body{
     color:black;
 }
 carousel-item{
-    width:200%
+    width:200%;
+    background-size:contain;
+    padding:3rem 2rem;
+    boder-radius:0.2rem;
 }
 nav ul{
     list-style-type: none;
