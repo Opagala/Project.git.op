@@ -37,7 +37,10 @@ nav ul li{
     margin: 0;
 }
 div{
-    text-align:center;
+    text-align:left;
+}
+div h1 h2 h3{
+    text-align: center;
 }
 footer{
         flex-direction: column;
