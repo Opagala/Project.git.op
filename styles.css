@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: #f5f5dc;
+    background-image: #BC8F8F;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -43,7 +43,8 @@ div{
 div h1 h2 h3 h4{
     text-align: center;
 }
-footer{    
+footer{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         flex-direction: column;
         text-align: center;
         color: black;
