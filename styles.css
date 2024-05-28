@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
+    background-color: #cococo;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -14,6 +14,7 @@ body{
 }
 .products{
     align-items: left;
+    display: flex;
 }
 .logo{
     max-height: 50px;
