@@ -44,6 +44,7 @@ div h1 h2 h3 h4{
     text-align: center;
 }
 footer{
+    backgroung-color:#997e6f
         flex-direction: column;
         text-align: center;
         color: black;
