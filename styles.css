@@ -17,8 +17,8 @@ body{
     display: flex;
 }
 .logo{
-    max-height: 50px;
-    margin-right: 10px;
+    max-height: 100px;
+    margin-right: 50px;
 }
 .jumbotron{
     background-color: blanchedalmond;
@@ -44,7 +44,7 @@ nav ul li{
     margin: 0;
 }
 div{
-    text-align:left;
+    text-align: center;
    width: 100%;
 }
 div h1 h2 h3 h4{
