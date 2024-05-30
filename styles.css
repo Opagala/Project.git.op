@@ -20,6 +20,9 @@ body{
     max-height: 50%;
     margin-right: 10%;
 }
+.menu{
+    float:right;
+}
 .jumbotron{
     background-color: blanchedalmond;
     background-image: url('image+7.jpg');
