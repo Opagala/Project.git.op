@@ -7,6 +7,9 @@ body{
     color:black;
     height: 2000%;
 }
+h1,h2,h3,h4{
+      font-family:Oswald,sans-serif;
+}
 .navbar-brand{
     font-weight: bold;
     display: flex;
