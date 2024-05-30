@@ -21,7 +21,7 @@ body{
     margin-right: 10%;
 }
 .menu{
-    float:right;
+    float: top-right;
 }
 .jumbotron{
     background-color: blanchedalmond;
