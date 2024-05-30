@@ -21,8 +21,24 @@ body{
     max-height: 50%;
     margin-right: 10%;
 }
-.menu{
-    float: top-right;
+.navbar_menu {
+position: fixed;
+visibility: hidden;
+opacity: 0;
+top: 0;
+right: 0;
+left: 0;
+z-index: 10;
+background-color: #111517ee;
+height: 100%;
+width: 100%;
+transition: opacity .3s ease,visibility .3s ease;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+-ms-flex-pack: justify;
+justify-content: space-between
 }
 .jumbotron{
     background-color: blanchedalmond;
