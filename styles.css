@@ -17,7 +17,7 @@ body{
     display: flex;
 }
 .logo{
-    max-height: 80%;
+    max-height: 50%;
     margin-right: 50%;
 }
 .jumbotron{
