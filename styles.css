@@ -15,6 +15,7 @@ body{
 .products{
     align-items: left;
     display: flex;
+    width:200%;
 }
 .logo{
     max-height: 50%;
