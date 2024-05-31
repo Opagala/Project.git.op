@@ -1,14 +1,11 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #cococo;
+    background-color: #111517;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    color:black;
+    color:#ddd;
     height: 2000%;
-}
-h1,h2,h3,h4{
-      font-family:Oswald,sans-serif;
 }
 .navbar-brand{
     font-weight: bold;
