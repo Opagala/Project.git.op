@@ -1,10 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #111517;
+    background-color: #fff;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    color:#ddd;
+    color:#111517;
     height: 2000%;
 }
 .navbar-brand{
