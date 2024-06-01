@@ -20,7 +20,6 @@ body{
 .logo{
     height: 80px;
     margin-top: 60px;
-}
 .navbar_menu {
 position: fixed;
 visibility: hidden;
@@ -39,6 +38,119 @@ display: flex;
 flex-direction: column;
 -ms-flex-pack: justify;
 justify-content: space-between
+}
+
+.navbar_menu .menu {
+margin-left: 30px;
+padding-top: 1.875rem
+}
+
+.navbar_menu .menu .menu_list {
+list-style: none;
+padding: 0;
+margin: 0 0 1.625rem;
+transition: opacity .3s ease-in;
+visibility: hidden;
+opacity: 0
+}
+
+.navbar_menu .menu .menu_item {
+padding: 0;
+margin: 0
+}
+
+.navbar_menu .menu .menu_item:before {
+display: none
+}
+
+.navbar_menu .menu .menu_item .menu_link {
+font-family: Maison Neue,sans-serif;
+font-weight: 300;
+font-size: 18px;
+font-size: 1.125rem;
+color: #888;
+text-decoration: none;
+line-height: 1.7777;
+transition: color .3s;
+position: relative;
+overflow: hidden;
+display: inline-block
+}
+
+.navbar_menu .menu .menu_item .menu_link:hover {
+    color: #fff;text-shadow:0 0 5px #00fffc;
+}
+
+.navbar_menu .menu .menu_item .menu_link-active {
+    color: #00fffc!important
+}
+
+.navbar_menu .menu .menu_item .menu_link-anim .link_layer {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    background-color: #111517;
+    width: 100%;
+    display: block;
+    transform: translate3d(-100%,0,0);
+    animation: anim-out-layer .3s ease-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.navbar_menu .menu .menu_item .menu_link-anim .link_layer:before {
+    background-color: #111517;
+    content: attr(data-text);
+    width: 100%;
+    display: block;
+    transform: translate3d(100%,0,0);
+    color: #00fffc;
+    animation: anim-out-text .3s ease-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.navbar_menu .menu .menu_item .menu_link-anim:hover .link_layer {
+    animation: anim-in-layer .3s ease forwards
+}
+
+.navbar_menu .menu .menu_item .menu_link-anim:hover .link_layer:before {
+    animation: anim-in-text .3s ease forwards
+}
+
+.navbar_menu .menu .menu_item-big .menu_link {
+    font-family:Oswald,sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.22;
+    color: #fff
+}
+.navbar-fixed.navbar-opened {
+height: 100%
+}
+.navbar-opened .navbar_menu {
+visibility: visible;
+opacity: 1
+}
+
+.navbar-opened .menu .menu_list-main {
+animation: showNavigation .9s ease forwards;
+visibility: visible
+}
+
+.navbar-opened .menu .menu_list-alter {
+animation: showNavigation .9s .2s ease forwards;
+visibility: visible
+}
+.navbar_menu .social {
+    margin-left: 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease-in;
+  text-align:right;
+  padding:35px
 }
 .jumbotron{
     background-color: blanchedalmond;
