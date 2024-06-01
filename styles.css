@@ -20,6 +20,7 @@ body{
 .logo{
     height: 80px;
     margin-top: 60px;
+}
 .navbar_menu {
 position: fixed;
 visibility: hidden;
