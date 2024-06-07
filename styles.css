@@ -4,154 +4,18 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    color:#fff
-    height: 2000%;
+    color:black;
+    height: 2000px;
 }
 .navbar-brand{
     font-weight: bold;
     display: flex;
     align-items: center;
-}
-.products{
-    align-items: left;
-    display: flex;
-    width:200%;
+    color: azure;
 }
 .logo{
-    height: 80px;
-    margin-top: 60px;
-}
-.navbar_menu {
-position: fixed;
-visibility: hidden;
-opacity: 0;
-top: 0;
-right: 0;
-left: 0;
-z-index: 10;
-background-color: #111517ee;
-height: 100%;
-width: 100%;
-transition: opacity .3s ease,visibility .3s ease;
-display: -ms-flexbox;
-display: flex;
--ms-flex-direction: column;
-flex-direction: column;
--ms-flex-pack: justify;
-justify-content: space-between
-}
-
-.navbar_menu .menu {
-margin-left: 30px;
-padding-top: 1.875rem
-}
-
-.navbar_menu .menu .menu_list {
-list-style: none;
-padding: 0;
-margin: 0 0 1.625rem;
-transition: opacity .3s ease-in;
-visibility: hidden;
-opacity: 0
-}
-
-.navbar_menu .menu .menu_item {
-padding: 0;
-margin: 0
-}
-
-.navbar_menu .menu .menu_item:before {
-display: none
-}
-
-.navbar_menu .menu .menu_item .menu_link {
-font-family: Maison Neue,sans-serif;
-font-weight: 300;
-font-size: 18px;
-font-size: 1.125rem;
-color: #888;
-text-decoration: none;
-line-height: 1.7777;
-transition: color .3s;
-position: relative;
-overflow: hidden;
-display: inline-block
-}
-
-.navbar_menu .menu .menu_item .menu_link:hover {
-    color: #fff;text-shadow:0 0 5px #00fffc;
-}
-
-.navbar_menu .menu .menu_item .menu_link-active {
-    color: #00fffc!important
-}
-
-.navbar_menu .menu .menu_item .menu_link-anim .link_layer {
-    position: absolute;
-    left: 0;
-    overflow: hidden;
-    background-color: #111517;
-    width: 100%;
-    display: block;
-    transform: translate3d(-100%,0,0);
-    animation: anim-out-layer .3s ease-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden
-}
-
-.navbar_menu .menu .menu_item .menu_link-anim .link_layer:before {
-    background-color: #111517;
-    content: attr(data-text);
-    width: 100%;
-    display: block;
-    transform: translate3d(100%,0,0);
-    color: #00fffc;
-    animation: anim-out-text .3s ease-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden
-}
-
-.navbar_menu .menu .menu_item .menu_link-anim:hover .link_layer {
-    animation: anim-in-layer .3s ease forwards
-}
-
-.navbar_menu .menu .menu_item .menu_link-anim:hover .link_layer:before {
-    animation: anim-in-text .3s ease forwards
-}
-
-.navbar_menu .menu .menu_item-big .menu_link {
-    font-family:Oswald,sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    font-size: 2rem;
-    text-transform: uppercase;
-    line-height: 1.22;
-    color: #fff
-}
-.navbar-fixed.navbar-opened {
-height: 100%
-}
-.navbar-opened .navbar_menu {
-visibility: visible;
-opacity: 1
-}
-
-.navbar-opened .menu .menu_list-main {
-animation: showNavigation .9s ease forwards;
-visibility: visible
-}
-
-.navbar-opened .menu .menu_list-alter {
-animation: showNavigation .9s .2s ease forwards;
-visibility: visible
-}
-.navbar_menu .social {
-    margin-left: 8px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .3s ease-in;
-  text-align:right;
-  padding:35px
+    max-height: 50px;
+    margin-right: 10px;
 }
 .jumbotron{
     background-color: blanchedalmond;
@@ -162,11 +26,11 @@ visibility: visible
     text-align: center;
     color:black;
 }
-carousel-item{
-    width:200%;
+.products{
+    background-color: aquamarine;
     background-size:contain;
-    padding:3rem 2rem;
-    boder-radius:0.2rem;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;    
 }
 nav ul{
     list-style-type: none;
@@ -177,32 +41,31 @@ nav ul li{
     margin: 0;
 }
 div{
-    text-align: center;
-   width: 100%;
+    text-align:center;
 }
-div h1 h2 h3 h4{
-    text-align: center;
-    font-weight: bolder;
+.cart{
+    display: inline;
+    margin-right: 100px;
 }
-footer{
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        flex-direction: column;
-        text-align: center;
-        color: black;
-        container: inherit;
-        position: relative;
-        top: 10%;
-        left: 0%;
-        margin: 30px 0 0 0;
-        padding: 0;
-        width: 100%;
-        overflow: auto;
-        background-color: #BC8F8F;
-        font-size: 20px;
-    
-}
+footer{   
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           flex-direction: column;
+           text-align: center;
+           color: black;
+           container: inherit;
+           position: relative; 
+           top: 20%;
+           left: 0%;
+           margin: 30px 0 0 0;
+           padding: 0;
+           width: 100%;
+           overflow: auto;
+           background-color: #BC8F8F;
+           font-size: 20px;
+       
+   }
 .dropdown{
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 @media (max-width: 768px) {
